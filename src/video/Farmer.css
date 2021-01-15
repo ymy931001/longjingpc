@@ -1,0 +1,132 @@
+#queryFarmer {
+    background: white;
+    min-height: 500px;
+}
+
+.gutter-example-farmer .ant-row > div {
+    background: transparent;
+    border: 0;
+}
+
+.gutter-box-farmer {
+    text-align:center;
+}
+
+#Farmer .ant-cascader-picker{
+    width: 30%;
+}
+
+#Farmer th{
+    text-align: center;
+}
+
+#Farmer td{
+    text-align: center;
+}
+#Farmer{
+position: relative;
+width: 100%;
+height: 86vh;
+}
+#myPlayer{
+width: 100%;
+position: absolute;
+z-index: 50;
+}
+.videoEle{
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.menu{
+    /* box-sizing: border-box; */
+    font-size: 14px;
+    font-variant: tabular-nums;
+    /* -webkit-box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    outline: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    /* -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); */
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); */
+    color: rgba(238, 238, 238, 0.65);
+    background: rgba(19, 18, 18, 0.788);
+    line-height: 0;
+    -webkit-transition: background .3s, width .2s;
+    -o-transition: background .3s, width .2s;
+    transition: background .3s, width .2s;
+    
+    z-index: 1000;
+    transition: opacity 0.3s ease-out ;
+    overflow:hidden scroll ;
+    height: 100%;
+    margin-right: -30px;
+}
+.scroll{
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 110%;
+    
+}
+.videomenu{
+    width: 240px;
+    height: 70vh;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1000;
+}
+.menu .menu-item{
+    padding-left: 24px;
+    margin-bottom: 8px;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 16px;
+    font-size: 14px;
+    margin-top: 4px;
+    text-overflow: ellipsis;
+    display: block;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), border-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), padding 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.menu-item:hover {
+    background-color:rgba(180, 180, 180, 0.608);;
+    color: rgba(238, 236, 236, 0.856);
+    border-right: 5px solid #c4c8cc;
+}
+
+
+.videobackImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in;
+    
+
+}
+.gardenAddress{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    color: #c4c8cc;
+    text-align: center;
+    background: #001529;
+}
+.video-error{
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    background: #001529;
+    color: #c4c8cc;
+}

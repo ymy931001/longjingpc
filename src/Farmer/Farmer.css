@@ -1,0 +1,25 @@
+#queryFarmer {
+    background: white;
+    min-height: 500px;
+}
+
+.gutter-example-farmer .ant-row > div {
+    background: transparent;
+    border: 0;
+}
+
+.gutter-box-farmer {
+    text-align:center;
+}
+
+#Farmer .ant-cascader-picker{
+    width: 30%;
+}
+
+#Farmer th{
+    text-align: center;
+}
+
+#Farmer td{
+    text-align: center;
+}

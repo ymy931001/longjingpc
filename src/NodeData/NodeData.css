@@ -1,0 +1,29 @@
+#queryNodeData {
+    background: white;
+    min-height: 500px;
+}
+
+.gutter-example-nodedata .ant-row > div {
+    background: transparent;
+    border: 0;
+}
+
+.gutter-box-nodedata {
+    text-align:center;
+}
+
+#NodeData .ant-cascader-picker{
+    width: 80%;
+}
+
+#NodeData th{
+    text-align: center;
+}
+
+#NodeData td{
+    text-align: center;
+}
+
+.ant-modal-body .ant-input-group-wrapper{
+    margin: 8px;
+}
